@@ -38,7 +38,7 @@ function play () {
     }
 
     do{
-        user = prompt(`Escolha uma cor!:\n\n${corRandom.toString()}\n\n\nVidas Restantes: ${lives}`).toLowerCase()
+        user = prompt(`Escolha uma cor!:\n\n${corRandom.toString()}\n\n\nVidas que Restam: ${lives}`).toLowerCase()
 
          if (user != corSorted) { 
             verify(corSorted, user, lives)
